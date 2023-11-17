@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul class="navigation">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">My projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+
+
+            <div class="left_collumn">
+                <header class="heading">
+                    <h1>Konstantin <br> Shugaev</h1>
+                    <h2>Front-end developer</h2>
+                </header>
+                <section class="about" id="about">
+                    <h2>About me</h2>
+
+
+                    <p>I was educated as an energy engineer (specialty: electricity supply of industrial enterprises).
+                        Further, working in accordance with the received specialty, i gained expeirience in such matters
+                        as
+                        solving technical problems, projecting, planning, communicating with people (including as a
+                        supervisor), introduction of accounting and of technical documentation. In Searching of a new
+                        new
+                        direction I decided to develop in the field of web-frontend. I know that my determination and
+                        diligence allow me to explore new directions and become a qualified specialist.
+                    </p>
+
+                </section>
+
+                <section class="projects" id="projects">
+                    <h2>My projects</h2>
+
+                    <p>
+                        <a href="index.html">CV</a>
+                    </p>
+
+                </section>
+
+                <section class="skills" id="skills">
+                    <h2>Skills</h2>
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git,github</li>
+                        <li>Javascript</li>
+                    </ul>
+
+
+                </section>
+
+                <section class="code" id="code">
+                    <h2>Code</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, facilis, aliquam necessitatibus
+                        sapiente
+                        unde omnis explicabo soluta quia animi eligendi esse saepe voluptatibus, ipsam temporibus
+                        deserunt
+                        expedita ipsum sit culpa.
+                    </p>
+                    <pre><code>
+      const stringParser = (url) => {
+             return url
+              .slice (url.indexOf('?') + 1)
+              .split('&')
+            .reduce((obj, current) => {
+              const [key, value] = current.split("=");
+                    obj[key] = value
+                   return obj;
+            }, {});
+       };          </code></pre>
+
+
+                </section>
+            </div>
+            <div class="right_collumn">
+                <div class="photo">photo</div>
+                <section class="contacts" id="contacts">
+                    <h2>contacts</h2>
+
+                    <ul>
+                        <li>Discord - obscurity6423</li>
+                        <li>Email - kshoegaev@gmail.com</li>
+                        <li>Tel-8025************4</li>
+                    </ul>
+
+                </section>
+
+                <section class='languages' id='languages'>
+                    <h2>Languages</h2>
+
+                    <ul>
+                        <li>Russian - native</li>
+                        <li>English - A2</li>
+                    </ul>
+
+                </section>
+
+            </div>
+
+        </main>
+        <footer>
+            <a target="_blank" href="https://rs.school/js/"><img class="rolling_scopes"
+                    src="source/images/rs_school_js.png" alt=""></a>
+
+            <p>2023</p>
+
+            <a target="_blank" href="https://github.com/shoegaev"><img class="git_hub" src="source/images/github.png"
+                    alt=""></a>
+        </footer>
+
+    </div>
+
+</html>
