@@ -2,22 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="source/styles/styles.css" />
+    <link rel="stylesheet" href="source/styles/styles.css">
 </head>
 
 <body>
     <div class="container">
         <nav>
             <ul class="navigation">
-                <li><a href="#about">About me</a></li>
-                <li><a href="#projects">My projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#code">Code</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-                <li><a href="#languages">Languages</a></li>
+                <li><a href="#about" title="go to about section">About me</a></li>
+                <li><a href="#projects" title="go to projects section">My projects</a></li>
+                <li><a href="#skills" title="go to skills section">Skills</a></li>
+                <li><a href="#code" title="go to code section">Code</a></li>
+                <li><a href="#contacts" title="go to contacts section">Contacts</a></li>
+                <li><a href="#languages" title="go to languages section">Languages</a></li>
             </ul>
         </nav>
 
@@ -79,11 +79,11 @@
                         expedita ipsum sit culpa.
                     </p>
                     <pre><code>
-      const stringParser = (url) => {
+      const stringParser = (url) =&gt; {
              return url
               .slice (url.indexOf('?') + 1)
-              .split('&')
-            .reduce((obj, current) => {
+              .split('&amp;')
+            .reduce((obj, current) =&gt; {
               const [key, value] = current.split("=");
                     obj[key] = value
                    return obj;
@@ -130,5 +130,8 @@
         </footer>
 
     </div>
+
+
+</body>
 
 </html>
